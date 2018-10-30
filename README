@@ -1,0 +1,16 @@
+This is a solution of the problem in the datafountain that "China Meteorological big data algorithm and application contest - 
+algorithm competition".
+
+The main idea to solve the task is How to train a better classification for the given data.
+
+Here, we try serverl models separately to learn the specific classifier. Including the VGG and Inception model.(inception, xception, 
+densenet model can also be achieved easily through just modifying model.py file). There isn't any other operation skills applied to the 
+solution. So, if you combine more image processing, mayhe you are able to get a more accurate and robust result.
+
+The project mainly contains the following files:
+    dataset.py   process the given data
+    train.py     train the model
+    model.py     build the network through transfer learning
+    test.py      test and output the results
+
+if you use the project, you firstly need to put the given image into corresponding folders.
